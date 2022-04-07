@@ -1,0 +1,804 @@
+local partsWithId = {}
+local awaitRef = {}
+
+
+
+local root = {
+	ID = 0;
+	Type = "Model";
+	Properties = {
+		Name = "KRISS VECTOR";
+	};
+	Children = {
+		{
+			ID = 1;
+			Type = "Model";
+			Properties = {
+				Name = "MenuNodes";
+			};
+			Children = {
+				{
+					ID = 2;
+					Type = "Part";
+					Properties = {
+						FormFactor = Enum.FormFactor.Custom;
+						BrickColor = BrickColor.new(98/255,37/255,209/255);
+						BottomSurface = Enum.SurfaceType.Smooth;
+						CanCollide = false;
+						Color = Color3.new(98/255,37/255,209/255);
+						CFrame = CFrame.new(-876.8402099609375,-107.35029602050781,-367.0850524902344,0.002193450927734375,-0.0018937435233965516,-0.9999958276748657,0.0014059689128771424,0.9999971985816956,-0.0018906622426584363,0.9999966621398926,-0.0014018159126862884,0.0021961331367492676);
+						Anchored = true;
+						Size = Vector3.new(0.19999998807907104,0.19999998807907104,0.19999998807907104);
+						Rotation = Vector3.new(40.72999954223633,-89.83000183105469,40.810001373291016);
+						Transparency = 1;
+						brickColor = BrickColor.new(98/255,37/255,209/255);
+						Position = Vector3.new(-876.8402099609375,-107.35029602050781,-367.0850524902344);
+						Orientation = Vector3.new(0.10999999940395355,-89.87000274658203,0.07999999821186066);
+						Material = Enum.Material.SmoothPlastic;
+						Name = "BarrelNode";
+						TopSurface = Enum.SurfaceType.Smooth;
+					};
+					Children = {
+						{
+							ID = 3;
+							Type = "SpecialMesh";
+							Properties = {
+								Scale = Vector3.new(0.4000000059604645,0.4000000059604645,1.399999976158142);
+								MeshType = Enum.MeshType.Sphere;
+								Offset = Vector3.new(0,0,-0.15000000596046448);
+							};
+							Children = {};
+						};
+					};
+				};
+				{
+					ID = 4;
+					Type = "Part";
+					Properties = {
+						FormFactor = Enum.FormFactor.Custom;
+						BrickColor = BrickColor.new(98/255,37/255,209/255);
+						BottomSurface = Enum.SurfaceType.Smooth;
+						CanCollide = false;
+						Color = Color3.new(98/255,37/255,209/255);
+						CFrame = CFrame.new(-877.3692626953125,-107.60130310058594,-367.0850524902344,0.002193450927734375,-0.0018937435233965516,-0.9999958276748657,0.0014059689128771424,0.9999971985816956,-0.0018906622426584363,0.9999966621398926,-0.0014018159126862884,0.0021961331367492676);
+						Anchored = true;
+						Size = Vector3.new(0.19999998807907104,0.19999998807907104,0.19999998807907104);
+						Rotation = Vector3.new(40.72999954223633,-89.83000183105469,40.810001373291016);
+						Transparency = 1;
+						brickColor = BrickColor.new(98/255,37/255,209/255);
+						Position = Vector3.new(-877.3692626953125,-107.60130310058594,-367.0850524902344);
+						Orientation = Vector3.new(0.10999999940395355,-89.87000274658203,0.07999999821186066);
+						Material = Enum.Material.SmoothPlastic;
+						Name = "UnderbarrelNode";
+						TopSurface = Enum.SurfaceType.Smooth;
+					};
+					Children = {};
+				};
+				{
+					ID = 5;
+					Type = "Part";
+					Properties = {
+						FormFactor = Enum.FormFactor.Custom;
+						BrickColor = BrickColor.new(98/255,37/255,209/255);
+						BottomSurface = Enum.SurfaceType.Smooth;
+						CanCollide = false;
+						Color = Color3.new(98/255,37/255,209/255);
+						CFrame = CFrame.new(-878.499267578125,-107.44328308105469,-367.0850524902344,0.002193450927734375,-0.0018937435233965516,-0.9999958276748657,0.0014059689128771424,0.9999971985816956,-0.0018906622426584363,0.9999966621398926,-0.0014018159126862884,0.0021961331367492676);
+						Anchored = true;
+						Size = Vector3.new(0.19999998807907104,0.19999998807907104,0.19999998807907104);
+						Rotation = Vector3.new(40.72999954223633,-89.83000183105469,40.810001373291016);
+						Transparency = 1;
+						brickColor = BrickColor.new(98/255,37/255,209/255);
+						Position = Vector3.new(-878.499267578125,-107.44328308105469,-367.0850524902344);
+						Orientation = Vector3.new(0.10999999940395355,-89.87000274658203,0.07999999821186066);
+						Material = Enum.Material.SmoothPlastic;
+						Name = "MenuNode";
+						TopSurface = Enum.SurfaceType.Smooth;
+					};
+					Children = {};
+				};
+				{
+					ID = 6;
+					Type = "Part";
+					Properties = {
+						FormFactor = Enum.FormFactor.Custom;
+						BrickColor = BrickColor.new(98/255,37/255,209/255);
+						BottomSurface = Enum.SurfaceType.Smooth;
+						CanCollide = false;
+						Color = Color3.new(98/255,37/255,209/255);
+						CFrame = CFrame.new(-877.1712036132812,-107.61530303955078,-367.0850524902344,0.0022478103637695312,0.0025904178619384766,-0.999994158744812,-0.9999969005584717,0.0011270642280578613,-0.0022449493408203125,0.0011212825775146484,0.9999960660934448,0.002592921257019043);
+						Anchored = true;
+						Size = Vector3.new(0.19999998807907104,0.19999998807907104,0.19999998807907104);
+						Rotation = Vector3.new(40.88999938964844,-89.80000305175781,-49.04999923706055);
+						Transparency = 1;
+						brickColor = BrickColor.new(98/255,37/255,209/255);
+						Position = Vector3.new(-877.1712036132812,-107.61530303955078,-367.0850524902344);
+						Orientation = Vector3.new(0.12999999523162842,-89.8499984741211,-89.94000244140625);
+						Material = Enum.Material.SmoothPlastic;
+						Name = "LaserNode";
+						TopSurface = Enum.SurfaceType.Smooth;
+					};
+					Children = {};
+				};
+				{
+					ID = 7;
+					Type = "Part";
+					Properties = {
+						FormFactor = Enum.FormFactor.Custom;
+						BrickColor = BrickColor.new(98/255,37/255,209/255);
+						BottomSurface = Enum.SurfaceType.Smooth;
+						CanCollide = false;
+						Color = Color3.new(98/255,37/255,209/255);
+						CFrame = CFrame.new(-877.8690185546875,-107.70101165771484,-367.1251525878906,0.002193450927734375,-0.0018937435233965516,-0.9999958276748657,0.0014059689128771424,0.9999971985816956,-0.0018906622426584363,0.9999966621398926,-0.0014018159126862884,0.0021961331367492676);
+						Anchored = true;
+						Size = Vector3.new(0.19999998807907104,0.19999998807907104,0.19999998807907104);
+						Rotation = Vector3.new(40.72999954223633,-89.83000183105469,40.810001373291016);
+						Transparency = 1;
+						brickColor = BrickColor.new(98/255,37/255,209/255);
+						Position = Vector3.new(-877.8690185546875,-107.70101165771484,-367.1251525878906);
+						Orientation = Vector3.new(0.10999999940395355,-89.87000274658203,0.07999999821186066);
+						Material = Enum.Material.SmoothPlastic;
+						Name = "OtherNode";
+						TopSurface = Enum.SurfaceType.Smooth;
+					};
+					Children = {};
+				};
+				{
+					ID = 8;
+					Type = "Part";
+					Properties = {
+						FormFactor = Enum.FormFactor.Custom;
+						BrickColor = BrickColor.new(98/255,37/255,209/255);
+						BottomSurface = Enum.SurfaceType.Smooth;
+						CanCollide = false;
+						Color = Color3.new(98/255,37/255,209/255);
+						CFrame = CFrame.new(-877.1932373046875,-106.90357208251953,-367.0871276855469,0.002193450927734375,-0.0018937435233965516,-0.9999958276748657,0.0014059689128771424,0.9999971985816956,-0.0018906622426584363,0.9999966621398926,-0.0014018159126862884,0.0021961331367492676);
+						Anchored = true;
+						Size = Vector3.new(0.19999998807907104,0.19999998807907104,0.19999998807907104);
+						Rotation = Vector3.new(40.72999954223633,-89.83000183105469,40.810001373291016);
+						Transparency = 1;
+						brickColor = BrickColor.new(98/255,37/255,209/255);
+						Position = Vector3.new(-877.1932373046875,-106.90357208251953,-367.0871276855469);
+						Orientation = Vector3.new(0.10999999940395355,-89.87000274658203,0.07999999821186066);
+						Material = Enum.Material.SmoothPlastic;
+						Name = "IronNode";
+						TopSurface = Enum.SurfaceType.Smooth;
+					};
+					Children = {};
+				};
+				{
+					ID = 9;
+					Type = "Part";
+					Properties = {
+						FormFactor = Enum.FormFactor.Custom;
+						BrickColor = BrickColor.new(98/255,37/255,209/255);
+						BottomSurface = Enum.SurfaceType.Smooth;
+						CanCollide = false;
+						Color = Color3.new(98/255,37/255,209/255);
+						CFrame = CFrame.new(-878.1822509765625,-106.92428588867188,-367.0850524902344,0.002193450927734375,-0.0018937435233965516,-0.9999958276748657,0.0014059689128771424,0.9999971985816956,-0.0018906622426584363,0.9999966621398926,-0.0014018159126862884,0.0021961331367492676);
+						Anchored = true;
+						Size = Vector3.new(0.19999998807907104,0.19999998807907104,0.19999998807907104);
+						Rotation = Vector3.new(40.72999954223633,-89.83000183105469,40.810001373291016);
+						Transparency = 1;
+						brickColor = BrickColor.new(98/255,37/255,209/255);
+						Position = Vector3.new(-878.1822509765625,-106.92428588867188,-367.0850524902344);
+						Orientation = Vector3.new(0.10999999940395355,-89.87000274658203,0.07999999821186066);
+						Material = Enum.Material.SmoothPlastic;
+						Name = "Iron2Node";
+						TopSurface = Enum.SurfaceType.Smooth;
+					};
+					Children = {};
+				};
+				{
+					ID = 10;
+					Type = "Part";
+					Properties = {
+						FormFactor = Enum.FormFactor.Custom;
+						BrickColor = BrickColor.new(98/255,37/255,209/255);
+						BottomSurface = Enum.SurfaceType.Smooth;
+						CanCollide = false;
+						Color = Color3.new(98/255,37/255,209/255);
+						CFrame = CFrame.new(-877.5089111328125,-107.37238311767578,-366.8483581542969,-0.0019892454147338867,-0.0023321807384490967,-0.9999952912330627,0.9999973773956299,-0.001127004623413086,-0.001986682415008545,-0.0011224150657653809,-0.9999966025352478,0.002334415912628174);
+						Anchored = true;
+						Size = Vector3.new(0.19999998807907104,0.19999998807907104,0.19999998807907104);
+						Rotation = Vector3.new(40.400001525878906,-89.81999969482422,130.4600067138672);
+						Transparency = 1;
+						brickColor = BrickColor.new(98/255,37/255,209/255);
+						Position = Vector3.new(-877.5089111328125,-107.37238311767578,-366.8483581542969);
+						Orientation = Vector3.new(0.10999999940395355,-89.87000274658203,90.05999755859375);
+						Material = Enum.Material.SmoothPlastic;
+						Name = "Laser1Node";
+						TopSurface = Enum.SurfaceType.Smooth;
+					};
+					Children = {};
+				};
+				{
+					ID = 11;
+					Type = "Part";
+					Properties = {
+						FormFactor = Enum.FormFactor.Custom;
+						BrickColor = BrickColor.new(98/255,37/255,209/255);
+						BottomSurface = Enum.SurfaceType.Smooth;
+						CanCollide = false;
+						Color = Color3.new(98/255,37/255,209/255);
+						CFrame = CFrame.new(-877.50927734375,-107.3722915649414,-367.3580627441406,0.001989305019378662,0.0023321807384490967,-0.9999952912330627,-0.9999973773956299,0.0011270642280578613,-0.001986682415008545,0.0011224150657653809,0.9999966025352478,0.002334415912628174);
+						Anchored = true;
+						Size = Vector3.new(0.19999998807907104,0.19999998807907104,0.19999998807907104);
+						Rotation = Vector3.new(40.400001525878906,-89.81999969482422,-49.540000915527344);
+						Transparency = 1;
+						brickColor = BrickColor.new(98/255,37/255,209/255);
+						Position = Vector3.new(-877.50927734375,-107.3722915649414,-367.3580627441406);
+						Orientation = Vector3.new(0.10999999940395355,-89.87000274658203,-89.94000244140625);
+						Material = Enum.Material.SmoothPlastic;
+						Name = "Laser2Node";
+						TopSurface = Enum.SurfaceType.Smooth;
+					};
+					Children = {};
+				};
+				{
+					ID = 12;
+					Type = "Part";
+					Properties = {
+						FormFactor = Enum.FormFactor.Custom;
+						BrickColor = BrickColor.new(98/255,37/255,209/255);
+						BottomSurface = Enum.SurfaceType.Smooth;
+						CanCollide = false;
+						Color = Color3.new(98/255,37/255,209/255);
+						CFrame = CFrame.new(-878.102294921875,-106.90528869628906,-367.0851135253906,0.002193450927734375,-0.0018937435233965516,-0.9999958276748657,0.0014059689128771424,0.9999971985816956,-0.0018906622426584363,0.9999966621398926,-0.0014018159126862884,0.0021961331367492676);
+						Anchored = true;
+						Size = Vector3.new(0.19999998807907104,0.19999998807907104,0.19999998807907104);
+						Rotation = Vector3.new(40.72999954223633,-89.83000183105469,40.810001373291016);
+						Transparency = 1;
+						brickColor = BrickColor.new(98/255,37/255,209/255);
+						Position = Vector3.new(-878.102294921875,-106.90528869628906,-367.0851135253906);
+						Orientation = Vector3.new(0.10999999940395355,-89.87000274658203,0.07999999821186066);
+						Material = Enum.Material.SmoothPlastic;
+						Name = "OpticsNode";
+						TopSurface = Enum.SurfaceType.Smooth;
+					};
+					Children = {
+						{
+							ID = 13;
+							Type = "BlockMesh";
+							Properties = {
+								Offset = Vector3.new(0,-0.11800000071525574,0);
+								Scale = Vector3.new(1,0.009999999776482582,1);
+							};
+							Children = {};
+						};
+					};
+				};
+				{
+					ID = 14;
+					Type = "Part";
+					Properties = {
+						FormFactor = Enum.FormFactor.Custom;
+						BrickColor = BrickColor.new(98/255,37/255,209/255);
+						BottomSurface = Enum.SurfaceType.Smooth;
+						CanCollide = false;
+						Color = Color3.new(98/255,37/255,209/255);
+						CFrame = CFrame.new(-877.9512329101562,-107.41527557373047,-367.0850524902344,0.002193450927734375,-0.0018937435233965516,-0.9999958276748657,0.0014059689128771424,0.9999971985816956,-0.0018906622426584363,0.9999966621398926,-0.0014018159126862884,0.0021961331367492676);
+						Anchored = true;
+						Size = Vector3.new(0.19999998807907104,0.19999998807907104,0.19999998807907104);
+						Rotation = Vector3.new(40.72999954223633,-89.83000183105469,40.810001373291016);
+						Transparency = 1;
+						brickColor = BrickColor.new(98/255,37/255,209/255);
+						Position = Vector3.new(-877.9512329101562,-107.41527557373047,-367.0850524902344);
+						Orientation = Vector3.new(0.10999999940395355,-89.87000274658203,0.07999999821186066);
+						Material = Enum.Material.SmoothPlastic;
+						Name = "MountNode";
+						TopSurface = Enum.SurfaceType.Smooth;
+					};
+					Children = {};
+				};
+			};
+		};
+		{
+			ID = 15;
+			Type = "Part";
+			Properties = {
+				FormFactor = Enum.FormFactor.Custom;
+				BrickColor = BrickColor.new(1,1,0);
+				BottomSurface = Enum.SurfaceType.Smooth;
+				CanCollide = false;
+				Color = Color3.new(1,1,0);
+				CFrame = CFrame.new(-878.4212646484375,-107.3642807006836,-367.0850524902344,0.002192854881286621,-0.002259975764900446,-0.9999951124191284,0.0014063704293221235,0.9999964833259583,-0.002256894949823618,0.9999966621398926,-0.0014014141634106636,0.002196013927459717);
+				Anchored = true;
+				Size = Vector3.new(0.19999998807907104,0.19999998807907104,0.19999998807907104);
+				Rotation = Vector3.new(45.779998779296875,-89.81999969482422,45.86000061035156);
+				Transparency = 1;
+				brickColor = BrickColor.new(1,1,0);
+				Position = Vector3.new(-878.4212646484375,-107.3642807006836,-367.0850524902344);
+				Orientation = Vector3.new(0.12999999523162842,-89.87000274658203,0.07999999821186066);
+				Material = Enum.Material.SmoothPlastic;
+				Name = "Trigger";
+				TopSurface = Enum.SurfaceType.Smooth;
+			};
+			Children = {};
+		};
+		{
+			ID = 16;
+			Type = "Part";
+			Properties = {
+				FormFactor = Enum.FormFactor.Custom;
+				BrickColor = BrickColor.new(1,1,0);
+				BottomSurface = Enum.SurfaceType.Smooth;
+				CanCollide = false;
+				Color = Color3.new(1,1,0);
+				CFrame = CFrame.new(-876.8402099609375,-107.35029602050781,-367.0850524902344,0.002192854881286621,-0.002259975764900446,-0.9999951124191284,0.0014063704293221235,0.9999964833259583,-0.002256894949823618,0.9999966621398926,-0.0014014141634106636,0.002196013927459717);
+				Anchored = true;
+				Size = Vector3.new(0.19999998807907104,0.19999998807907104,0.19999998807907104);
+				Rotation = Vector3.new(45.779998779296875,-89.81999969482422,45.86000061035156);
+				Transparency = 1;
+				brickColor = BrickColor.new(1,1,0);
+				Position = Vector3.new(-876.8402099609375,-107.35029602050781,-367.0850524902344);
+				Orientation = Vector3.new(0.12999999523162842,-89.87000274658203,0.07999999821186066);
+				Material = Enum.Material.SmoothPlastic;
+				Name = "Flame";
+				TopSurface = Enum.SurfaceType.Smooth;
+			};
+			Children = {
+				{
+					ID = 17;
+					Type = "Sound";
+					Properties = {
+						Name = "Fire";
+					};
+					Children = {};
+				};
+			};
+		};
+		{
+			ID = 18;
+			Type = "Part";
+			Properties = {
+				FormFactor = Enum.FormFactor.Custom;
+				BrickColor = BrickColor.new(1,1,0);
+				BottomSurface = Enum.SurfaceType.Smooth;
+				CanCollide = false;
+				Color = Color3.new(1,1,0);
+				CFrame = CFrame.new(-877.1012573242188,-106.83428955078125,-367.0875549316406,0.002192854881286621,-0.002259975764900446,-0.9999951124191284,0.0014063704293221235,0.9999964833259583,-0.002256894949823618,0.9999966621398926,-0.0014014141634106636,0.002196013927459717);
+				Anchored = true;
+				Size = Vector3.new(0.19999998807907104,0.19999998807907104,0.19999998807907104);
+				Rotation = Vector3.new(45.779998779296875,-89.81999969482422,45.86000061035156);
+				Transparency = 1;
+				brickColor = BrickColor.new(1,1,0);
+				Position = Vector3.new(-877.1012573242188,-106.83428955078125,-367.0875549316406);
+				Orientation = Vector3.new(0.12999999523162842,-89.87000274658203,0.07999999821186066);
+				Material = Enum.Material.SmoothPlastic;
+				Name = "SightMark";
+				TopSurface = Enum.SurfaceType.Smooth;
+			};
+			Children = {};
+		};
+		{
+			ID = 19;
+			Type = "MeshPart";
+			Properties = {
+				Reflectance = 1;
+				CanCollide = false;
+				Color = Color3.new(1,0,0);
+				Anchored = true;
+				MeshId = "rbxassetid://748647821";
+				BrickColor = BrickColor.new(1,0,0);
+				Rotation = Vector3.new(0,-90,0);
+				Name = "Part";
+				brickColor = BrickColor.new(1,0,0);
+				Position = Vector3.new(-879.5223388671875,-107.53229522705078,-367.0710754394531);
+				Orientation = Vector3.new(0,-90,0);
+				Material = Enum.Material.Metal;
+				CFrame = CFrame.new(-879.5223388671875,-107.53229522705078,-367.0710754394531,0,0,-1,0,1,0,1,0,0);
+				Size = Vector3.new(0.233001708984375,1.0039958953857422,1.477996826171875);
+			};
+			Children = {
+				{
+					ID = 20;
+					Type = "IntValue";
+					Properties = {
+						Name = "Slot1";
+					};
+					Children = {};
+				};
+			};
+		};
+		{
+			ID = 21;
+			Type = "MeshPart";
+			Properties = {
+				Reflectance = 1;
+				CanCollide = false;
+				Color = Color3.new(9/85,14/85,53/255);
+				Anchored = true;
+				MeshId = "rbxassetid://741828925";
+				BrickColor = BrickColor.new(9/85,14/85,53/255);
+				Rotation = Vector3.new(0,-90,0);
+				Name = "Part";
+				brickColor = BrickColor.new(9/85,14/85,53/255);
+				Position = Vector3.new(-879.01025390625,-107.54328155517578,-367.0770568847656);
+				Orientation = Vector3.new(0,-90,0);
+				Material = Enum.Material.Metal;
+				CFrame = CFrame.new(-879.01025390625,-107.54328155517578,-367.0770568847656,0,0,-1,0,1,0,1,0,0);
+				Size = Vector3.new(0.2239990234375,1.0345706939697266,2.9739990234375);
+			};
+			Children = {};
+		};
+		{
+			ID = 22;
+			Type = "MeshPart";
+			Properties = {
+				CanCollide = false;
+				Color = Color3.new(1,89/255,89/255);
+				Anchored = true;
+				MeshId = "rbxassetid://742902404";
+				BrickColor = BrickColor.new(1,89/255,89/255);
+				Rotation = Vector3.new(0,-90,0);
+				Name = "Mag";
+				brickColor = BrickColor.new(1,89/255,89/255);
+				Position = Vector3.new(-877.7732543945312,-108.00029754638672,-367.0930480957031);
+				Orientation = Vector3.new(0,-90,0);
+				Material = Enum.Material.Neon;
+				CFrame = CFrame.new(-877.7732543945312,-108.00029754638672,-367.0930480957031,0,0,-1,0,1,0,1,0,0);
+				Size = Vector3.new(0.212005615234375,1.3335990905761719,0.4730072021484375);
+			};
+			Children = {
+				{
+					ID = 23;
+					Type = "IntValue";
+					Properties = {
+						Name = "Slot2";
+					};
+					Children = {};
+				};
+			};
+		};
+		{
+			ID = 24;
+			Type = "MeshPart";
+			Properties = {
+				CanCollide = false;
+				Color = Color3.new(91/255,31/85,7/17);
+				Anchored = true;
+				MeshId = "rbxassetid://741820510";
+				BrickColor = BrickColor.new(91/255,31/85,7/17);
+				Rotation = Vector3.new(0,-90,0);
+				Name = "Part";
+				brickColor = BrickColor.new(91/255,31/85,7/17);
+				Position = Vector3.new(-877.2172241210938,-107.46129608154297,-367.0860290527344);
+				Orientation = Vector3.new(0,-90,0);
+				Material = Enum.Material.SmoothPlastic;
+				CFrame = CFrame.new(-877.2172241210938,-107.46129608154297,-367.0860290527344,0,0,-1,0,1,0,1,0,0);
+				Size = Vector3.new(0.1100006103515625,0.05256205424666405,0.3849945068359375);
+			};
+			Children = {
+				{
+					ID = 25;
+					Type = "IntValue";
+					Properties = {
+						Name = "Slot1";
+					};
+					Children = {};
+				};
+			};
+		};
+		{
+			ID = 26;
+			Type = "MeshPart";
+			Properties = {
+				CanCollide = false;
+				Color = Color3.new(1,89/255,89/255);
+				Anchored = true;
+				MeshId = "rbxassetid://741833508";
+				BrickColor = BrickColor.new(1,89/255,89/255);
+				Rotation = Vector3.new(0,-90,0);
+				Name = "Bolt";
+				brickColor = BrickColor.new(1,89/255,89/255);
+				Position = Vector3.new(-877.458251953125,-107.26029205322266,-367.1300354003906);
+				Orientation = Vector3.new(0,-90,0);
+				Material = Enum.Material.Neon;
+				CFrame = CFrame.new(-877.458251953125,-107.26029205322266,-367.1300354003906,0,0,-1,0,1,0,1,0,0);
+				Size = Vector3.new(0.260009765625,0.09499197453260422,0.6349945068359375);
+			};
+			Children = {};
+		};
+		{
+			ID = 27;
+			Type = "MeshPart";
+			Properties = {
+				CanCollide = false;
+				Color = Color3.new(9/85,14/85,53/255);
+				Anchored = true;
+				MeshId = "rbxassetid://741820621";
+				BrickColor = BrickColor.new(9/85,14/85,53/255);
+				Rotation = Vector3.new(0,-90,0);
+				Name = "Part";
+				brickColor = BrickColor.new(9/85,14/85,53/255);
+				Position = Vector3.new(-877.92724609375,-107.05728912353516,-367.0860290527344);
+				Orientation = Vector3.new(0,-90,0);
+				Material = Enum.Material.SmoothPlastic;
+				CFrame = CFrame.new(-877.92724609375,-107.05728912353516,-367.0860290527344,0,0,-1,0,1,0,1,0,0);
+				Size = Vector3.new(0.110992431640625,0.07019424438476562,1.774993896484375);
+			};
+			Children = {
+				{
+					ID = 28;
+					Type = "IntValue";
+					Properties = {
+						Name = "Slot2";
+					};
+					Children = {};
+				};
+			};
+		};
+		{
+			ID = 29;
+			Type = "MeshPart";
+			Properties = {
+				Reflectance = 1;
+				CanCollide = false;
+				Color = Color3.new(1,0,0);
+				Anchored = true;
+				MeshId = "rbxassetid://9301367124";
+				BrickColor = BrickColor.new(1,0,0);
+				Rotation = Vector3.new(0,-90,0);
+				Name = "Part";
+				brickColor = BrickColor.new(1,0,0);
+				Position = Vector3.new(-877.938232421875,-107.5052719116211,-367.07611083984375);
+				Orientation = Vector3.new(0,-90,0);
+				Material = Enum.Material.Metal;
+				CFrame = CFrame.new(-877.938232421875,-107.5052719116211,-367.07611083984375,0,0,-1,0,1,0,1,0,0);
+				Size = Vector3.new(0.2429962158203125,0.8907620906829834,1.8180084228515625);
+			};
+			Children = {
+				{
+					ID = 30;
+					Type = "IntValue";
+					Properties = {
+						Name = "Slot2";
+					};
+					Children = {};
+				};
+				{
+					ID = 31;
+					Type = "Texture";
+					Properties = {
+						Texture = "http://www.roblox.com/asset/?id=5782167143";
+						Transparency = 0.6000000238418579;
+					};
+					Children = {};
+				};
+				{
+					ID = 32;
+					Type = "Texture";
+					Properties = {
+						Face = Enum.NormalId.Bottom;
+						Transparency = 0.6000000238418579;
+						Texture = "http://www.roblox.com/asset/?id=5782167143";
+					};
+					Children = {};
+				};
+				{
+					ID = 33;
+					Type = "Texture";
+					Properties = {
+						Face = Enum.NormalId.Back;
+						Transparency = 0.6000000238418579;
+						Texture = "http://www.roblox.com/asset/?id=5782167143";
+					};
+					Children = {};
+				};
+				{
+					ID = 34;
+					Type = "Texture";
+					Properties = {
+						Face = Enum.NormalId.Left;
+						Transparency = 0.6000000238418579;
+						Texture = "http://www.roblox.com/asset/?id=5782167143";
+					};
+					Children = {};
+				};
+				{
+					ID = 35;
+					Type = "Texture";
+					Properties = {
+						Face = Enum.NormalId.Right;
+						Transparency = 0.6000000238418579;
+						Texture = "http://www.roblox.com/asset/?id=5782167143";
+					};
+					Children = {};
+				};
+			};
+		};
+		{
+			ID = 36;
+			Type = "MeshPart";
+			Properties = {
+				CanCollide = false;
+				Color = Color3.new(1,0,0);
+				Anchored = true;
+				MeshId = "rbxassetid://741820424";
+				BrickColor = BrickColor.new(1,0,0);
+				Rotation = Vector3.new(0,-90,0);
+				Name = "Part";
+				brickColor = BrickColor.new(1,0,0);
+				Position = Vector3.new(-877.5883178710938,-107.5853042602539,-367.0880432128906);
+				Orientation = Vector3.new(0,-90,0);
+				Material = Enum.Material.Metal;
+				CFrame = CFrame.new(-877.5883178710938,-107.5853042602539,-367.0880432128906,0,0,-1,0,1,0,1,0,0);
+				Size = Vector3.new(0.274993896484375,0.729263961315155,1.1259918212890625);
+			};
+			Children = {
+				{
+					ID = 37;
+					Type = "IntValue";
+					Properties = {
+						Name = "Slot1";
+					};
+					Children = {};
+				};
+				{
+					ID = 38;
+					Type = "Texture";
+					Properties = {
+						Face = Enum.NormalId.Back;
+						Transparency = 0.6000000238418579;
+						Texture = "http://www.roblox.com/asset/?id=5782167143";
+					};
+					Children = {};
+				};
+				{
+					ID = 39;
+					Type = "Texture";
+					Properties = {
+						Face = Enum.NormalId.Bottom;
+						Transparency = 0.6000000238418579;
+						Texture = "http://www.roblox.com/asset/?id=5782167143";
+					};
+					Children = {};
+				};
+				{
+					ID = 40;
+					Type = "Texture";
+					Properties = {
+						Face = Enum.NormalId.Left;
+						Transparency = 0.6000000238418579;
+						Texture = "http://www.roblox.com/asset/?id=5782167143";
+					};
+					Children = {};
+				};
+				{
+					ID = 41;
+					Type = "Texture";
+					Properties = {
+						Texture = "http://www.roblox.com/asset/?id=5782167143";
+						Transparency = 0.6000000238418579;
+					};
+					Children = {};
+				};
+				{
+					ID = 42;
+					Type = "Texture";
+					Properties = {
+						Face = Enum.NormalId.Right;
+						Transparency = 0.6000000238418579;
+						Texture = "http://www.roblox.com/asset/?id=5782167143";
+					};
+					Children = {};
+				};
+			};
+		};
+		{
+			ID = 43;
+			Type = "MeshPart";
+			Properties = {
+				CanCollide = false;
+				Color = Color3.new(1,0,0);
+				Anchored = true;
+				MeshId = "rbxassetid://741837372";
+				BrickColor = BrickColor.new(1,0,0);
+				Rotation = Vector3.new(0,-90,0);
+				Name = "Iron";
+				brickColor = BrickColor.new(1,0,0);
+				Position = Vector3.new(-877.917236328125,-106.91128540039062,-367.0850524902344);
+				Orientation = Vector3.new(0,-90,0);
+				Material = Enum.Material.Neon;
+				CFrame = CFrame.new(-877.917236328125,-106.91128540039062,-367.0850524902344,0,0,-1,0,1,0,1,0,0);
+				Size = Vector3.new(0.170013427734375,0.26278018951416016,1.7000579833984375);
+			};
+			Children = {};
+		};
+		{
+			ID = 44;
+			Type = "MeshPart";
+			Properties = {
+				CanCollide = false;
+				Color = Color3.new(1,89/255,89/255);
+				Anchored = true;
+				MeshId = "rbxassetid://741822587";
+				BrickColor = BrickColor.new(1,89/255,89/255);
+				Rotation = Vector3.new(0,-90,0);
+				Name = "Part";
+				brickColor = BrickColor.new(1,89/255,89/255);
+				Position = Vector3.new(-878.6682739257812,-107.50328826904297,-367.0960388183594);
+				Orientation = Vector3.new(0,-90,0);
+				Material = Enum.Material.Neon;
+				CFrame = CFrame.new(-878.6682739257812,-107.50328826904297,-367.0960388183594,0,0,-1,0,1,0,1,0,0);
+				Size = Vector3.new(0.25299072265625,0.8326290845870972,3.13299560546875);
+			};
+			Children = {};
+		};
+		{
+			ID = 45;
+			Type = "MeshPart";
+			Properties = {
+				CanCollide = false;
+				Color = Color3.new(1,89/255,89/255);
+				Anchored = true;
+				MeshId = "rbxassetid://741820976";
+				BrickColor = BrickColor.new(1,89/255,89/255);
+				Rotation = Vector3.new(0,-90,0);
+				Name = "Part";
+				brickColor = BrickColor.new(1,89/255,89/255);
+				Position = Vector3.new(-877.1572265625,-107.35028076171875,-367.0860290527344);
+				Orientation = Vector3.new(0,-90,0);
+				Material = Enum.Material.Neon;
+				CFrame = CFrame.new(-877.1572265625,-107.35028076171875,-367.0860290527344,0,0,-1,0,1,0,1,0,0);
+				Size = Vector3.new(0.1100006103515625,0.12503200769424438,0.7350006103515625);
+			};
+			Children = {};
+		};
+		{
+			ID = 46;
+			Type = "UnionOperation";
+			Properties = {
+				CanCollide = false;
+				Color = Color3.new(248/255,248/255,248/255);
+				UsePartColor = true;
+				CFrame = CFrame.new(-877.9080810546875,-106.83314514160156,-367.0867004394531,-0.9999949932098389,-0.002245919080451131,-0.0022428191732615232,-0.0022428191732615232,0.999996542930603,-0.0013836687430739403,0.002245919080451131,-0.0013786314520984888,-0.999996542930603);
+				Rotation = Vector3.new(179.9199981689453,-0.12999999523162842,179.8699951171875);
+				Transparency = 0.5;
+				Name = "IronGlow";
+				Position = Vector3.new(-877.9080810546875,-106.83314514160156,-367.0867004394531);
+				Orientation = Vector3.new(0.07999999821186066,-179.8699951171875,-0.12999999523162842);
+				Material = Enum.Material.Neon;
+				Anchored = true;
+				Size = Vector3.new(1.6088308095932007,0.05337051302194595,0.053370360285043716);
+			};
+			Children = {};
+		};
+	};
+};
+
+local function Scan(item, parent)
+	local obj = Instance.new(item.Type)
+	if (item.ID) then
+		local awaiting = awaitRef[item.ID]
+		if (awaiting) then
+			awaiting[1][awaiting[2]] = obj
+			awaitRef[item.ID] = nil
+		else
+			partsWithId[item.ID] = obj
+		end
+	end
+	for p,v in pairs(item.Properties) do
+		if (type(v) == "string") then
+			local id = tonumber(v:match("^_R:(%w+)_$"))
+			if (id) then
+				if (partsWithId[id]) then
+					v = partsWithId[id]
+				else
+					awaitRef[id] = {obj, p}
+					v = nil
+				end
+			end
+		end
+		obj[p] = v
+	end
+	for _,c in pairs(item.Children) do
+		Scan(c, obj)
+	end
+	obj.Parent = parent
+	return obj
+end
+
+game.ReplicatedStorage.GunModels["KRISS VECTOR"].Name = "OriginalKRISS VECTOR"
+Scan(root, game.ReplicatedStorage.GunModels)
